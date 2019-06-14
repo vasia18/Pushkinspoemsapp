@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistributionMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <Button
+            android:id="@+id/btnDistribution_Prisoner"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Prisoner"
+            android:text="@string/Prisoner" />
+
+        <Button
+            android:id="@+id/btnDistribution_Cloud"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Cloud"
+            android:text="@string/Cloud" />
+
+        <Button
+            android:id="@+id/btnDistribution_Myself"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Myself"
+            android:text="@string/I_myself_am_not_happy" />
+
+        <Button
+            android:id="@+id/btnDistribution_Tidier"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Tidier"
+            android:text="@string/Tidier_fashion_flooring" />
+
+        <Button
+            android:id="@+id/btnDistribution_TheBird"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_TheBird"
+            android:text="@string/The_bird_of_God_does_not_know" />
+
+        <Button
+            android:id="@+id/btnDistribution_Weather"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Weather"
+            android:text="@string/Eugene_Onegin" />
+
+        <Button
+            android:id="@+id/btnDistribution_October"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_October"
+            android:text="@string/autumn" />
+
+        <Button
+            android:id="@+id/btnDistribution_Winter"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Winter"
+            android:text="@string/Winter" />
+
+        <Button
+            android:id="@+id/btnDistribution_MyMime"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_MyMime"
+            android:text="@string/ifTitle" />
+
+        <Button
+            android:id="@+id/btnDistribution_Signs"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Signs"
+            android:text="@string/SignsTitle" />
+
+        <Button
+            android:id="@+id/btnDistribution_Answer"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_Answer"
+            android:text="@string/AnswerTitle" />
+
+        <Button
+            android:id="@+id/btnDistribution_When"
+            style="@style/ButtonStyle_ripple_distribution"
+            android:onClick="Click_btnDistribution_When"
+            android:text="@string/When_in_my_armsTitle" />
+
+    </LinearLayout>
+
+</ScrollView>

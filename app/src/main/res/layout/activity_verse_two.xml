@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/opryatnej_modnogo_parketa"
+            android:contentDescription="@string/Cloud" />
+
+        <TextView
+            style="@style/StyleTextVerseTitle"
+            android:text="@string/Cloud" />
+
+        <TextView
+            style="@style/StyleTextVerse"
+            android:text="@string/CloudText" />
+
+
+    </LinearLayout>
+</RelativeLayout>

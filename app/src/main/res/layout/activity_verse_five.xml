@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colortext2"
+            android:contentDescription="@string/foto_pushkin" />
+
+        <TextView
+            style="@style/StyleTextVerseTitle"
+            android:text="@string/The_bird_of_God_does_not_know" />
+
+        <TextView
+            style="@style/StyleTextVerse"
+            android:text="@string/The_bird_of_God_does_not_knowText" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

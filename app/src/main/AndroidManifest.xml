@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><!--suppress SyntaxError -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="top.vsebudet.pushkinspoemsapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DistributionMenuActivity"></activity>
+
+        <activity
+            android:name=".VerseOneActivity"
+            android:parentActivityName=".DistributionMenuActivity"></activity>
+
+        <activity
+            android:name=".VerseTwoActivity"
+            android:parentActivityName=".VerseOneActivity"></activity>
+
+        <activity
+            android:name=".VerseFreeActivity"
+            android:parentActivityName=".DistributionMenuActivity"></activity>
+
+        <activity
+            android:name=".VerseForeActivity"
+            android:parentActivityName=".DistributionMenuActivity"></activity>
+
+        <activity
+            android:name=".VerseFiveActivity"
+            android:parentActivityName=".DistributionMenuActivity"></activity>
+
+        <activity
+            android:name=".VerseSixActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+        <activity
+            android:name=".VerseeSvenActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+        <activity
+            android:name=".VerseEightActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+        <activity
+            android:name=".VerseNineActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+        <activity
+            android:name=".VerseTenActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+        <activity
+            android:name=".VerseElevenActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+        <activity
+            android:name=".VerseTwelveActivity"
+            android:parentActivityName=".DistributionMenuActivity" />
+
+    </application>
+
+</manifest>
