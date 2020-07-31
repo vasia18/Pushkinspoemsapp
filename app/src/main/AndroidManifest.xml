@@ -17,27 +17,39 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".DistributionMenuActivity"></activity>
+        <activity android:name=".DistributionMenuActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseOneActivity"
-            android:parentActivityName=".DistributionMenuActivity"></activity>
+            android:parentActivityName=".DistributionMenuActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseTwoActivity"
-            android:parentActivityName=".VerseOneActivity"></activity>
+            android:parentActivityName=".VerseOneActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseFreeActivity"
-            android:parentActivityName=".DistributionMenuActivity"></activity>
+            android:parentActivityName=".VerseOneActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseForeActivity"
-            android:parentActivityName=".DistributionMenuActivity"></activity>
+            android:parentActivityName=".DistributionMenuActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseFiveActivity"
-            android:parentActivityName=".DistributionMenuActivity"></activity>
+            android:parentActivityName=".DistributionMenuActivity">
+
+        </activity>
 
         <activity
             android:name=".VerseSixActivity"

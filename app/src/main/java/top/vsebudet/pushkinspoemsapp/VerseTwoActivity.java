@@ -14,6 +14,7 @@ public class VerseTwoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_verse_two);
 
+//Прописываем toolbar в Activity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
