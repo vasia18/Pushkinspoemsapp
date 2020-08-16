@@ -23,33 +23,23 @@
 
         <activity
             android:name=".VerseOneActivity"
-            android:parentActivityName=".DistributionMenuActivity">
-
-        </activity>
+            android:parentActivityName=".DistributionMenuActivity"></activity>
 
         <activity
             android:name=".VerseTwoActivity"
-            android:parentActivityName=".VerseOneActivity">
-
-        </activity>
+            android:parentActivityName=".VerseOneActivity"></activity>
 
         <activity
             android:name=".VerseFreeActivity"
-            android:parentActivityName=".VerseOneActivity">
-
-        </activity>
+            android:parentActivityName=".VerseOneActivity"></activity>
 
         <activity
             android:name=".VerseForeActivity"
-            android:parentActivityName=".DistributionMenuActivity">
-
-        </activity>
+            android:parentActivityName=".DistributionMenuActivity"></activity>
 
         <activity
             android:name=".VerseFiveActivity"
-            android:parentActivityName=".DistributionMenuActivity">
-
-        </activity>
+            android:parentActivityName=".DistributionMenuActivity"></activity>
 
         <activity
             android:name=".VerseSixActivity"
@@ -74,6 +64,7 @@
         <activity
             android:name=".VerseElevenActivity"
             android:parentActivityName=".DistributionMenuActivity" />
+
         <activity
             android:name=".VerseTwelveActivity"
             android:parentActivityName=".DistributionMenuActivity" />
